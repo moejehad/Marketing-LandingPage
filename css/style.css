@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap');
+
+body {font-family: 'Cairo', sans-serif!important;}
+* {transition: all 0.2s ease;-webkit-transition: all 0.2s ease;-moz-transition: all 0.2s ease;-o-transition: all 0.2s ease;}
+
+
+/* start header */
+.home {background-color: #fff;overflow-x: hidden!important;font-weight: 400;color: #889da0;background-image: url(../img/header.svg);background-position: right top;background-repeat: no-repeat;background-size: 57%;height: 120vh;}
+.home .navbar {height: 120px;overflow: hidden;padding: 0;}
+header .navbar-brand {font-size: 40px;font-weight: bold;text-transform: uppercase;color: #393939!important;}
+header .nav-item {margin: 0 15px;}
+.home .nav-link {color: #fff!important;font-size: 19px;}
+header .main {margin-top: 90px;}
+header .main h1 {color: #393939;font-size: 80px;font-weight: bold;margin-bottom: 30px;line-height: 1;}
+header .main p {color: #393939;font-size: 18px;font-weight: 300;line-height: 1.5;margin-bottom: 20px;}
+header .main .btn {padding: 10px 40px;border-radius: 50px;margin-bottom: 30px;font-size: 18px;font-weight: bold;background: #EA3952;border: 0;}
+/* end header */
+
+
+
+/* start about */
+.about , .pricing{padding: 40px;}
+.about .top , .pricing .top{text-align: center;}
+.about .top h1 , .pricing .top h1{font-weight: bold;margin-bottom: 20px;}
+.about .top p , .pricing .top p{color: #676767;margin-bottom: 30px;}
+.about .image img {width: 100%;height: 100%;}
+.about .accordion {margin-top: 50px;}
+.about .card {margin-bottom: 30px;box-shadow: 0 0 30px 0 rgb(0 0 0 / 6%);border: 0;border-left: 3px solid #3babf6;}
+.about .card-header {background: #fff;border: 0;text-align: left;cursor: pointer;}
+.about .card-header .btn {font-size: 18px;font-weight: bold;color: #5B5B5B;text-transform: uppercase;text-decoration: none;}
+.about .card-body {text-align: left;color: #B0B1B2;font-weight: 500;line-height: 2;}
+/* end about */
+
+
+
+/* start pricing */
+.pricing {background: #FBFBFB;}
+.pricing .cards {margin-top: 50px;max-width: 100%;margin: auto;display: flex;align-items: center;justify-content: center;}
+.pricing .card {border-radius: 20px;}
+.pricing .card-body {padding: 40px 25px;}
+.pricing .card-body h5 {color: #2E6ED5!important;font-size: 35px;font-weight: bold;margin-bottom: 15px;}
+.pricing .card-body h6 {color: #5B5B5B;font-size: 15px;margin-bottom: 30px;font-weight: 600;}
+.pricing .card-body .fa-ul {margin-left: 0;margin-bottom: 30px;}
+.pricing .card-body .fa-ul li {margin-bottom: 15px;color: #5B5B5B;font-weight: 600;}
+.pricing .card-body .btn {padding: 12px 0;border-radius: 50px;max-width: 80%;margin: auto;border: 1px solid #2E6ED5;background: transparent;color: #2E6ED5;}
+.pricing .primary {background: #5BABE1;border: 1px solid #5BABE1;box-shadow: 0 0 30px 0 rgb(0 0 0 / 6%);width: 330px;height: 480px;}
+.pricing .primary h5 , .pricing .primary h6 , .pricing .primary .fa-ul li {color: #fff!important;}
+.pricing .primary .btn {background: #fff;border: 0;color: #5babe1;}
+.pricing .primary .fa-ul {margin: 50px 20px;}
+/* end pricing */
+
+
+/* start testmonial */
+.testimonials {padding: 40px;}
+.testimonials .card {border: 0;box-shadow: 0 0 30px 0 rgb(0 0 0 / 6%);margin: 20px 10px;}
+.testimonials .card .photo {border-radius: 50px;margin-right: 10px;}
+.testimonials .card .info {float: right;}
+.testimonials .card .info h1 {font-size: 25px;font-weight: bold;color: #5B5B5B;}
+.testimonials .card .info p {margin-bottom: 5px;}
+.testimonials .card .info .caption {color: #B0B1B2;font-weight: 200;}
+.testimonials .owl-dots {display: none;}
+.testimonials .owl-nav {display: none;}
+/* end testmonial */
+
+
+/* start blog */
+.blog {padding: 40px;}
+.blog .top {overflow: hidden;}
+.blog .top h1 {font-weight: bold;margin-bottom: 20px;}
+.blog .top p{color: #676767;margin-bottom: 30px;}
+.blog .top .btn {border-radius: 50px;padding: 10px 30px;font-size: 20px;font-weight: bold;text-transform: capitalize;margin: 20px 0;background: linear-gradient(45deg,#6ebcff,#39a1f0);border: 0;}
+.blog .articles {padding: 20px 0;}
+.blog .articles .card {background: #FBFBFB;border: 0;}
+.blog .articles .card img {height: 220px;}
+.blog .articles .card a {text-decoration: none;}
+.blog .articles .card h5 {font-weight: bold;font-size: 23px;color: #5B5B5B;}
+.blog .articles .card p {color: #5B5B5B!important;font-weight: 200;}
+.blog .articles .card .date {margin: 0;font-size: 12px;}
+/* end blog */
+
+
+/* start subscribe */
+.content {margin: 40px 0 0 0;padding: 10px;text-align: center;background: url(../img/subscribe.svg) center;height: 310px;background-size: cover;background-repeat: no-repeat;}
+.content h1 {max-width: 40%;margin: auto;font-weight: bold;margin-bottom: 20px;font-size: 38px;}
+.content form {max-width: 55%;margin: auto;padding: 50px 0;}
+.content form input {height: 80px;margin-bottom: 10px;border-radius: 50px;padding: 10px 30px;background: transparent;font-weight: bold;color: #878787;}
+.content form .btn {z-index: 1;position: relative;top: -80px;height: 60px;width: 25%;padding: 0;background: linear-gradient(45deg,#6ebcff,#39a1f0);color: #fff;border: 0;right: -217px;}
+/* end subscribe */
+
+
+
+/* start footer */
+footer {background: linear-gradient(45deg,#3babf6,#317edd);padding: 20px;text-align: center;color: #fff;}
+footer .fa-2x {font-size: 20px;margin-right: 10px!important;margin-left: 20px;}
+footer a {color: #f7f7f7;}
+footer a:hover {text-decoration: none;}
+footer .fa-2x {font-size: 20px;}
+/* end footer */
+
+
+/* blog page */
+.blog-page .card {margin-bottom: 20px;}
+.blog-page .btn {background: linear-gradient(45deg,#6ebcff,#39a1f0);color: #fff;border: 0;padding: 10px 25px;font-weight: bold;border-radius: 50px;text-transform: capitalize;}
+/* blog page  */
+
+
+/* article page  */
+article {padding: 40px;}
+article .card {box-shadow: 0 0 30px 0 rgb(0 0 0 / 6%);border: 0;padding: 20px;border-radius: 10px;}
+article .card-img-top {height: 400px;}
+article .card-title {font-weight: bold;margin-bottom: 20px;font-size: 25px;}
+article .card-text {line-height: 2;color: #828282;}
+/* article page  */

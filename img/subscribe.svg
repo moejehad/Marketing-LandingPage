@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="585" viewBox="0 0 1920 585">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fbfbfb" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fbfbfb"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="-0.252" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3babf6"/>
+      <stop offset="1" stop-color="#2d6dd3"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.5" x2="-0.252" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ea3952"/>
+      <stop offset="1" stop-color="#b84d5c"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x2="0.5" xlink:href="#linear-gradient-4"/>
+  </defs>
+  <g id="Group_5958" data-name="Group 5958" transform="translate(0 -4471)">
+    <rect id="Rectangle_160" data-name="Rectangle 160" width="1920" height="585" transform="translate(0 4471)" fill="url(#linear-gradient)"/>
+    <g id="Group_5957" data-name="Group 5957">
+      <g id="Group_5956" data-name="Group 5956">
+        <rect id="Rectangle_162" data-name="Rectangle 162" width="534" height="10" transform="translate(695 4600)" fill="#d5eeff"/>
+        <rect id="Rectangle_163" data-name="Rectangle 163" width="414" height="10" transform="translate(754 4654)" fill="#d5eeff"/>
+      </g>
+    </g>
+    <g id="Group_5864" data-name="Group 5864" transform="matrix(0.966, -0.259, 0.259, 0.966, -1258.383, -229.195)">
+      <rect id="Rectangle_158" data-name="Rectangle 158" width="40.626" height="40.626" rx="10" transform="translate(237.665 5121.694) rotate(45)" opacity="0.3" fill="url(#linear-gradient-2)"/>
+      <rect id="Rectangle_161" data-name="Rectangle 161" width="40.626" height="40.626" rx="10" transform="translate(237.665 5109.745) rotate(45)" fill="url(#linear-gradient-2)"/>
+    </g>
+    <g id="Group_5866" data-name="Group 5866" transform="matrix(0.966, -0.259, 0.259, 0.966, 89.617, -176.195)">
+      <rect id="Rectangle_158-2" data-name="Rectangle 158" width="40.626" height="40.626" rx="10" transform="translate(237.665 5121.694) rotate(45)" opacity="0.3" fill="url(#linear-gradient-4)"/>
+      <rect id="Rectangle_161-2" data-name="Rectangle 161" width="40.626" height="40.626" rx="10" transform="translate(237.665 5109.745) rotate(45)" fill="url(#linear-gradient-5)"/>
+      <rect id="Rectangle_164" data-name="Rectangle 164" width="40.626" height="40.626" rx="10" transform="translate(237.665 5109.746) rotate(45)" fill="url(#linear-gradient-5)"/>
+    </g>
+  </g>
+</svg>
